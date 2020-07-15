@@ -1,0 +1,34 @@
+1. download dataset
+2.Undersrans it
+3. create anaconada enironment
+conda create -n carprediction python=3.7
+4. activate the environment
+activate carprediction
+5. cd to D:\Krish_kaggle-projects\car_pr
+6.open jupyter notebook from hre
+n) you can setup the environment inpychar also
+n)whatever package you need to install, install inside the environment you created
+n)Learn all types of catgorical conversions nominal and ordinal
+n)When to use ExtraTreesClassifier
+7. once your pickle file is created now create requirement.txt file
+activate environment
+Cd to that folder
+pip freeze>requirement.txt
+
+8. As the model is crreated no it is time to create your front end
+9. cd to same location and open spyder 
+start installing all libraries that you need in your front end applic
+ation
+pip install flask 
+pip install jsonify
+pip install requests
+1.. run below
+python app.py #app.py is your flask application
+Go to index.html and see it
+11. Html gives you look
+12. app.py does calculations as per the input received in index.html
+once you are done with app.py and index.html,,, now it is the time for deployment
+1:22:00,,
+
+?Change model loaded to main.py and app.py 
+and how to include a sub-folder in heroku?
